@@ -1,0 +1,4 @@
+*.swp
+config.json
+
+plugins/*/private
