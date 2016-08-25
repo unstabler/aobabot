@@ -58,7 +58,6 @@ sub call {
             }
         }
     );
-    
 }
 
 __PACKAGE__->meta->make_immutable;
