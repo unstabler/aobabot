@@ -1,3 +1,6 @@
 {
-    "slack-token": "your-slack-token"
+    "slack_token": "your-slack-token",
+    "plugins": [
+        "AobabotPlugin::Greeter"
+    ]
 }
