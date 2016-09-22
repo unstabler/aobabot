@@ -6,7 +6,7 @@ use warnings;
 use lib 'lib';
 use JSON;
 use Aobabot;
-use AobabotPlugin::Greeter;
+use Module::Load;
 
 sub load_config {
     my $filename = shift || "config.json";
@@ -25,15 +25,12 @@ my $aobachan = Aobabot->new(
     token => $config->{slack_token}
 );
 
-$aobachan->listener->start;
-
 for my $plugin (@{$config->{plugins}}) {
     eval {
-        # require $plugin; # FIXME
         $aobachan->listener->register_plugin($plugin);
-    };
-
-    warn $@ if $@;
+    } or warn;
 }
+
+$aobachan->listener->start;
 
 Mojo::IOLoop->start unless Mojo::IOLoop->is_running;

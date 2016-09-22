@@ -4,6 +4,7 @@ use utf8;
 use strict;
 use warnings;
 
+use Module::Load;
 use Moose;
 use namespace::autoclean;
 
@@ -142,6 +143,8 @@ sub register_plugin {
     my $package = shift;
 
     eval {
+        load $package;
+
         my $plugin = $package->new(
             context => $self->context
         );
