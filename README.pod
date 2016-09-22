@@ -4,12 +4,6 @@
 
 Aobabot - 슬랙 봇
 
-=head1 DESCRIPTION
-
-=begin HTML
-    <img src="https://pbs.twimg.com/media/Cs7J0NTVMAAEavT.jpg:large">
-=end HTML
-
 =head1 SYNOPSIS
 
     # 저장소 클론
