@@ -6,6 +6,10 @@ Aobabot - 슬랙 봇
 
 =head1 SYNOPSIS
 
+=begin HTML
+<img src="https://pbs.twimg.com/media/Cs7J0NTVMAAEavT.jpg:large">
+=end HTML
+
     # 저장소 클론
     $ git clone https://github.com/unstabler/aobabot.git
     # 의존 모듈 설치 (cpanm 필요)
