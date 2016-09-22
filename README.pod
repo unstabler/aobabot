@@ -9,7 +9,7 @@ Aobabot - 슬랙 봇
     # 저장소 클론
     $ git clone https://github.com/unstabler/aobabot.git
     # 의존 모듈 설치 (cpanm 필요)
-    $ cpanm installdeps
+    $ cpanm --installdeps .
     # 설정 파일 복사하고 편집하기
     $ cp config.json.sample config.json
     # 아오바 봇 실행
