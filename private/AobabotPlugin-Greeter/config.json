@@ -3,6 +3,7 @@
         "오늘 하루도 (힘내자(고잉|오)|간바루(조이|조의))": {
             "pretext":   "전부 거짓말입니다. 전 매일 자살하고 싶습니다.",
             "image_url": "https://pbs.twimg.com/media/CqjZ4xgUIAAiIUJ.jpg:large"
-        }
+        },
+        "아오바[쨩짱]?\\s+(살아)?있[어니]": "응!"
     }
 }
